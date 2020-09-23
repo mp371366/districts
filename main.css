@@ -1,9 +1,13 @@
-body, svg {
-  background-color: pink;
+body {
+  font-family: Arial;
+  padding: 0;
+  margin: 0;
+  min-width: 100vw;
+  min-height: 100vh;
 }
 
-g {
-  display: inline;
+svg {
+  background-color: pink;
 }
 
 .yellow {
@@ -24,6 +28,7 @@ g {
 
 g:hover {
   fill: red;
+  cursor: pointer;
 }
 
 g.district>path {
@@ -35,8 +40,6 @@ g.district>path {
   stroke-linejoin: round;
   stroke-miterlimit: 4;
   stroke-opacity: 1;
-  display: inline;
-  border: 10px solid red;
 }
 
 text {
@@ -56,7 +59,6 @@ text {
   stroke-linecap: butt;
   stroke-linejoin: miter;
   stroke-opacity: 1;
-  font-family: Arial;
 }
 
 g.city-border>path {
@@ -95,5 +97,4 @@ g.borders>path {
   stroke-miterlimit: 4;
   stroke-dasharray: none;
   stroke-opacity: 1;
-  display: inline;
 }
