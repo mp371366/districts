@@ -8,30 +8,20 @@ body {
 
 svg {
   background-color: pink;
+  font-family: Arial;
+  font-size: 24px;
 }
 
-.yellow {
-  fill: #d5d35d;
-}
-
-.green {
-  fill: #7daf84;
-}
-
-.orange {
-  fill: #d89c60;
-}
-
-.blue {
-  fill: #94929a;
-}
-
-g:hover {
-  fill: red;
+g.district:hover {
   cursor: pointer;
 }
 
+g.district:hover>path {
+  fill: red;
+}
+
 g.district>path {
+  fill: #d5d35d;
   fill-opacity: 1;
   fill-rule: evenodd;
   stroke: black;
@@ -43,7 +33,6 @@ g.district>path {
 }
 
 text {
-  font-size: 28px;
   font-style: normal;
   font-variant: normal;
   font-weight: bold;
