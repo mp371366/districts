@@ -34,8 +34,8 @@ g:hover {
 g.district>path {
   fill-opacity: 1;
   fill-rule: evenodd;
-  stroke: none;
-  stroke-width: 3;
+  stroke: black;
+  stroke-width: 2;
   stroke-linecap: butt;
   stroke-linejoin: round;
   stroke-miterlimit: 4;
@@ -61,38 +61,12 @@ text {
   stroke-opacity: 1;
 }
 
-g.city-border>path {
-  opacity: 1;
-  fill: none;
-  fill-rule: evenodd;
-  stroke: black;
-  stroke-width: 4;
-  stroke-linecap: butt;
-  stroke-linejoin: round;
-  stroke-miterlimit: 4;
-  stroke-dasharray: none;
-  stroke-opacity: 1;
-}
-
 g.river>path {
   fill: #2c5aa0;
   fill-rule: evenodd;
   stroke: none;
   stroke-width: 0.5;
   stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-miterlimit: 4;
-  stroke-dasharray: none;
-  stroke-opacity: 1;
-}
-
-g.borders>path {
-  opacity: 1;
-  fill: none;
-  fill-rule: evenodd;
-  stroke: white;
-  stroke-width: 3;
-  stroke-linecap: butt;
   stroke-linejoin: round;
   stroke-miterlimit: 4;
   stroke-dasharray: none;
